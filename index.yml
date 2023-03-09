@@ -1,0 +1,491 @@
+course_title: Working with data in the tidyverse
+course_description: >-
+  In this course, you'll learn to work with data using tools from the tidyverse
+  in R. By data, we mean your own data, other people's data, messy data, big
+  data, small data - any data stored in a "flat file" that comes your way. By
+  work, we mean doing most of the things that sound hard to do with R, and that
+  need to happen **before** you can analyze or visualize your data. But work
+  doesn't mean that it is not fun - you will see why so many people love working
+  in the tidyverse!
+programming_language: r
+chapters:
+  - chapter_title: Reading data
+    chapter_description: >-
+      You will start this course by learning how to read data into R, using 3
+      different tidyverse packages. Each package is designed to work with
+      different kinds of data files. We'll begin with the `readr` package, and
+      use it to read in a file where the values are separated by commas, called
+      a CSV file for "comma-separated values." Then we'll introduce 2
+      specialized packages for reading Excel files (`readxl`) and data exported
+      from statistical packages like SPSS and SAS (`haven`). 
+    exercises:
+      - type: VideoExercise
+        title: Reading data using readr
+        content: >-
+          * Image of tidyverse pipeline: what will this chapter cover?
+
+          * What is "rectangular" data and what does it look like (types: CSV,
+          TSV)
+
+          * Introduce the `readr` package
+
+          * Learn to use the `read_csv` function, with file path being the
+          primary argument
+
+          * Note that you must assign the output of the function as an object,
+          so you can do things with it
+
+          * Learn to use `dplyr::glimpse` to see variable names and first few
+          values (will return to column types)
+
+          * Use `?read_csv` to see other arguments and their defaults like
+          `col_names = TRUE`, and identify default values identified as missing
+          (`NA`)
+
+          * Learn to use arguments for the `read_csv` function to change missing
+          values (note that non-numeric values need to be in quotes, also
+          mention `c()`)
+      - type: NormalExercise
+        title: Read and glimpse a CSV file
+        content: >-
+          * Load the `readr` package
+
+          * Use `read_csv` to read the CSV file from working directory and save
+          as an object
+
+          * Use `read_csv` to read the CSV file from a sub-directory (i.e.,
+          "data/file.csv") and save as an object
+
+          * Use `read_csv` to read the CSV file from a url and save as an object
+
+          * Load `dplyr` and use `glimpse`to view the new data object
+      - type: NormalExercise
+        title: Read a CSV file and define missing values
+        content: >-
+          * Use the `na = ` argument in `read_csv`to define a missing value
+          (i.e., `na = "."`)
+
+          * Use the `na = ` argument in `read_csv` to define a vector of missing
+          values (i.e., `na = c(".", -99)`)
+
+          * Note the change in column type assignments from `readr`
+
+          * Use `dplyr::glimpse` to view the new data object
+      - type: VideoExercise
+        title: Column types in readr
+        content: >-
+          * Learn 4 common column types: numeric (number/double/integer),
+          character, factor, date 
+
+          * Introduce concept of typecasting
+
+          * Why typecast? Important for plotting and analyses for R to "know"
+          what type of object your variable is
+
+          * How `readr` makes educated guesses about column types
+
+          * Learn to use `readr` to specify column types (first, type out, next,
+          copy and paste from `readr` output
+
+          * Mention workflows for typecasting: at read in (now), or later (see
+          Chapter 3)
+      - type: NormalExercise
+        title: Change one column type
+        content: >-
+          * Sample code will include `parse_date` function for testing
+
+          * Use `col_types = ` in `read_csv` to cast a character string ("24
+          August 2016") to a date (note: more on dates in Chapter 3)
+
+          * Use `dplyr::glimpse` to view the new data object
+      - type: NormalExercise
+        title: Change multiple column types
+        content: >-
+          * Sample code will include `parse_number` function for testing, and
+          initial `read_csv` so student can copy paste from console output
+
+          * In addition to casting one variable as a date, use `col_types` in
+          `read_csv` to extract a number from a character string
+
+          * Use `dplyr::glimpse` to view the new data object
+      - type: VideoExercise
+        title: Read other file types
+        content: |-
+          * Introduce the `readxl` package for reading in excel files 
+          * Introduce the `haven` package for reading in SAS and SPSS files  
+          * As with `readr`, the primary argument is the file path
+          * Note that both have the same `col_types` arguments available
+          * Special features for excel data: sheets, ranges
+      - type: NormalExercise
+        title: Read an .xls file
+        content: |-
+          * Read Excel file using `readxl`
+          * Read in from a specific sheet and range
+          * Use `dplyr::glimpse` to view the new data object
+      - type: NormalExercise
+        title: Read an SPSS file
+        content: |-
+          * Read SPSS file via `haven` 
+          * Set `col_types`
+          * Use `dplyr::glimpse` to view the new data object
+      - type: VideoExercise
+        title: Tying it all together
+        content: >-
+          * Use previously taught `dplyr` and `ggplot2` functions to motivate
+          why reading in column types, etc. matters
+
+          * Show some example error messages from `dplyr` and `ggplot2` when
+          variables are not the correct types
+
+          * Introduce new `dplyr` functions: `tally`, `count`, `distinct`
+      - type: NormalExercise
+        title: Data wrangling with `dplyr`
+        content: >-
+          * Filter based on a date, for example (all seasons after 2014) (needs
+          to be a date!)
+
+          * Group by and arrange to find highest ranked baker on technical
+          challenge per each episode (needs to be numbers!)
+
+          * Group by and summarize (dplyr count/distinct, then plot the counts?)
+      - type: NormalExercise
+        title: Data visualization with `ggplot2`
+        content: >-
+          * Visualize something with `ggplot2` (facet_wrap needs to be a
+          factor?)
+  - chapter_title: Tidying data
+    chapter_description: >-
+      Now that your data has been tamed, it is time to get tidy. In this last
+      chapter, you will get hands-on experience tidying data and combining
+      multiple tidying functions together in a chain using the pipe operator. 
+    exercises:
+      - type: VideoExercise
+        title: Tidy data using `gather`
+        content: >-
+          * Image of tidyverse pipeline: what will this chapter cover?
+
+          * Introduce concept of tidy data
+
+          * Show examples of tidy and un-tidy data that needs to be gathered
+
+          * Show things that are possible with tidy data (i.e., ggplot2
+          facet_wrap)
+
+          * Demonstrate `gather` from `tidyr` package
+
+          * "Gather columns into key-value pairs"- what is a key? what is a
+          value? 
+      - type: MultipleChoiceExercise
+        title: Counting rows and columns after `gather`
+        content: '* Do a gather on a sheet of paper'
+      - type: NormalExercise
+        title: Gather variables into one column
+        content: >-
+          * Use `tidyr::gather` by listing two variables to gather;
+          `dplyr::glimpse` to view the new data object
+
+          * Use `tidyr::gather` by variable inclusion as a range;
+          `dplyr::glimpse` to view the new data object
+      - type: NormalExercise
+        title: Gather by leaving variables out
+        content: >-
+          * Use `tidyr::gather` by variable exclusion; `dplyr::glimpse` to view
+          the new data object
+      - type: NormalExercise
+        title: Gather non-consecutive variables
+        content: >-
+          * Gather non-sequential columns by combining with `select` and helper
+          functions (matches, starts_with, ends_with, contains);
+          `dplyr::glimpse` to view the new data object
+      - type: VideoExercise
+        title: Tidy data using `spread`
+        content: >-
+          * Show examples of tidy and un-tidy data that needs to be spread
+
+          * Demonstrate `spread` from `tidyr` package
+
+          * "Spread a key-value pair across multiple columns"- what is a key
+          here? what is a value here? 
+      - type: MultipleChoiceExercise
+        title: Counting rows and columns after `spread`
+        content: '* Do a spread on a sheet of paper'
+      - type: NormalExercise
+        title: Spread across multiple columns
+        content: >-
+          * Use `tidyr::spread` simple where `fill = NA` is default arg;
+          `dplyr::glimpse` to view the new data object
+
+          * Use `tidyr::spread` and set fill to something other than NA;
+          `dplyr::glimpse` to view the new data object
+      - type: VideoExercise
+        title: Tidy multiple sets of columns using `gather` and `spread`
+        content: '* Provide use cases for this problem'
+      - type: MultipleChoiceExercise
+        title: 'Challenge on paper: count rows and columns'
+        content: '* Do this by-hand on a sheet of paper'
+      - type: NormalExercise
+        title: Challenge 1
+        content: >-
+          * Use a sequence of `gather %>% separate %>% spread` to get 2 sets of
+          columns side-by-side
+
+          * Hint: you should end up with X rows and Y columns
+      - type: NormalExercise
+        title: Challenge 2
+        content: >-
+          * Use a sequence of `gather %>% separate %>% unite %>% spread` to get
+          2 sets of columns side-by-side
+
+          * Hint: you should end up with X rows and Y columns
+      - type: NormalExercise
+        title: Challenge 3
+        content: >-
+          * Use `ggplot2` to make an awesome plot here
+
+          * Ideas: think about recent "controversies" (number of viewers from
+          BBC to Channel 4? the tweet that spoiled the finale?)
+  - chapter_title: Taming data
+    chapter_description: >-
+      In this chapter, you'll learn some basics of data taming, like how to make
+      your variable names make sense, how to deal with duplicates and missing
+      data, and how to get your columns to hold the information you actually
+      need.
+    exercises:
+      - type: VideoExercise
+        title: Subset and reorder variables
+        content: >-
+          * Image of tidyverse pipeline: what will this chapter cover?
+
+          * Introduce `select` for keeping and dropping individual and multiple
+          columns (i.e., subsetting)
+
+          * Show how `select` can work with a range of consecutive columns
+          (`var1:var40`)
+
+          * Introduce key helper functions: `starts_with()`, `ends_with()`,
+          `contains()`, `everything()`
+
+          * Note: will not cover how select can be used to rename yet- see
+          Chapter 2
+      - type: NormalExercise
+        title: Keep and drop variables by name
+        content: >-
+          * Use `dplyr::select` to keep single named variables; `dplyr::glimpse`
+          to view the new data object
+
+          * Use `dplyr::select` to keep range of named variables;
+          `dplyr::glimpse` to view the new data object
+
+          * Use `dplyr::select` to drop variables; `dplyr::glimpse` to view the
+          new data object
+      - type: NormalExercise
+        title: Keep and drop variables based on name patterns
+        content: >-
+          * Use `dplyr::select` with helper functions to keep named variables;
+          `dplyr::glimpse` to view the new data object
+      - type: NormalExercise
+        title: 'Reorder variables '
+        content: >-
+          * Use `dplyr::select` with `everything()` helper function to reorder
+          variables; `dplyr::glimpse` to view the new data object
+      - type: VideoExercise
+        title: Clean up variable names
+        content: >-
+          * Talk about common problems with variable names that require taming:
+          special characters, spaces, mixing of upper/lower case, duplicate
+          names (and how `readr` handles this), inconsistent formatting
+
+          * Briefly introduce some of tidyverse style guide w/r/t naming
+          variables (underscores, snake case)
+
+          * Introduce `dplyr::rename` for renaming individual variables 
+
+          * Re-introduce `dplyr::select`, and show how you can select, reorder,
+          and rename in the same step
+
+          * Discuss when to use `rename` vs. `select`
+
+          * Show how `select` can be used to rename a range- advantage over
+          `rename`
+
+          * Finally, show `janitor::clean_names` as a good first step for
+          renaming variables
+      - type: NormalExercise
+        title: 'Rename variables '
+        content: >-
+          * Use `janitor::clean_names` first, then `%>%` to `dplyr::rename` to
+          rename a single variable; `dplyr::glimpse` to view the new data object
+
+          * Use `janitor::clean_names` then `dplyr::rename` to rename multiple
+          variables; `dplyr::glimpse` to view the new data object
+      - type: NormalExercise
+        title: Rename variables when subsetting columns
+        content: >-
+          * Use `dplyr::select` to rename variables when subsetting;
+          `dplyr::glimpse` to view the new data object
+
+          * Use `dplyr::select` to rename a range of consecutive columns
+          (`var1:var40`); `dplyr::glimpse` to view the new data object
+      - type: NormalExercise
+        title: Rename variables when reordering columns
+        content: >-
+          * Use `dplyr::select` to rename variable range (with `everything()`
+          helper function) when reordering; `dplyr::glimpse` to view the new
+          data object
+      - type: VideoExercise
+        title: Missing data
+        content: >-
+          * Introduce `tidyr` package, which contains two functions for working
+          with missing data
+
+          * Recall how `readr` recognizes blank "cells" and those with `NA`
+          values as missing
+
+          * `NA` values are special, and important to define for downstream
+          analyses and plotting
+
+          * You need special tools for dealing with missing data in R; we'll
+          highlight 3 use cases
+
+          * Use case #1: you have full rows that are missing, and should be
+          dropped
+
+          * Use case #2: you may have one or more specific columns that, if the
+          values are missing, mean that the whole observation should be dropped
+
+          * Use case #3: you want to recode a missing value: an `NA` value may
+          mean an actual value of zero on some measured variable, or  "refused"
+          on a survey question
+      - type: NormalExercise
+        title: Drop rows  containing missing values
+        content: >-
+          * Use `tidyr::drop_na` to drop an observation when a full row is
+          blank; `dplyr::glimpse` to view the new data object
+
+          * Use `tidyr::drop_na` to drop an observation when an individual
+          column has a missing value; `dplyr::glimpse` to view the new data
+          object
+
+          * Use `tidyr::drop_na` to drop an observation when multiple columns
+          has a missing value; `dplyr::glimpse` to view the new data object
+      - type: NormalExercise
+        title: Replace missing values with other values
+        content: >-
+          * Use `tidyr::replace_na` to recode `NA` as something else;
+          `dplyr::glimpse` to view the new data object
+      - type: VideoExercise
+        title: Separating and uniting columns
+        content: '* Introduce `tidyr` functions for working with columns in a dataframe'
+      - type: NormalExercise
+        title: Separate columns
+        content: >-
+          * Separate one column into two columns; `dplyr::glimpse` to view the
+          new data object
+
+          * Separate one column into two columns, use `extra = merge`;
+          `dplyr::glimpse` to view the new data object 
+
+          * Separate one column into two columns, use `extra = drop`;
+          `dplyr::glimpse` to view the new data object
+      - type: NormalExercise
+        title: Unite columns
+        content: >-
+          * Unite with default `_` as separator; `dplyr::glimpse` to view the
+          new data object
+
+          * Unite and specify different `sep = `; `dplyr::glimpse` to view the
+          new data object
+  - chapter_title: Taming variables
+    chapter_description: >-
+      In this chapter, you'll learn how to tame specific types of variables that
+      are known to be tricky to work with, specifically: dates, strings, and
+      factors. 
+    exercises:
+      - type: VideoExercise
+        title: Dates
+        content: >-
+          * Image of tidyverse pipeline: what will this chapter cover?
+
+          * First, date-time objects in R and `readr`
+
+          * Introduce `lubridate` for working with dates and times; focus on 3
+          use cases
+
+          * Use case #1: basic functions to type cast variables as dates/times
+          within `dplyr::mutate`
+
+          * Use case #2: extract data from a date, like `year`, `month`, `date`
+          (even quarters and semesters!)
+
+          * Use case #3: doing math with dates/times (calculating intervals,
+          durations, and periods, and converting units)
+      - type: NormalExercise
+        title: Change a variable type to date
+        content: >-
+          * Sample code will include `parse_date` function for testing
+
+          * Typecast variable as a date within a `dplyr::mutate` (after
+          importing)
+
+          * Will do this with multiple date variables- same values but formatted
+          differently
+
+          * `dplyr::glimpse` to view the new data object
+      - type: NormalExercise
+        title: Extract data from a date
+        content: >-
+          * Extract the year from the `airdate` variable using a `%>%`
+
+          * Now save the year as new variable `year_aired` within a
+          `dplyr::mutate`; `dplyr::glimpse` to view the new data object
+      - type: NormalExercise
+        title: Date calculations
+        content: >-
+          * Calculate the difference between `airdate` and `today` and save as
+          new variable within a `dplyr::mutate`; `dplyr::glimpse` to view the
+          new data object
+      - type: NormalExercise
+        title: Date conversions
+        content: >-
+          * How long ago did each episode air? Divide by `ddays(1)`,
+          `dmonths(1)`, `dyears(1)
+
+          * Use modulo operator to get whole numbers:`%/% days(1)`, `%/%
+          months(1)`, `%/% years(1)`
+      - type: VideoExercise
+        title: Strings
+        content: '* Introduce `stringr` package for working with character variables'
+      - type: NormalExercise
+        title: Detecting presence of specific strings
+        content: >-
+          * Detect a specific string from a variable using `stringr::str_detect`
+          following a `%>%`
+
+          * Now save this new 0/1 variable in a `dplyr::mutate`;
+          `dplyr::glimpse` to view the new data object
+      - type: NormalExercise
+        title: Replace specific patterns in strings
+        content: '* Use `str_replace_all` to replace specific characters'
+      - type: NormalExercise
+        title: Remove specific patterns in strings
+        content: '* Use `str_replace_all` to get rid of specific characters'
+      - type: VideoExercise
+        title: Making and recoding factors
+        content: >-
+          * Introduce `dplyr::case_when` within a `mutate` for creating a new
+          factor
+
+          * Introduce `forcats` package for working with factors
+      - type: NormalExercise
+        title: Make a new factor variable
+        content: '* Use `dplyr::case_when` to recode a continuous variable into bins'
+      - type: NormalExercise
+        title: Exploring factors
+        content: >-
+          * Use `forcats::fct_count()`
+
+          * Use `dplyr::recode` for simple recoding factor (or
+          `forcats::fct_recode`?)
+      - type: VideoExercise
+        title: Final thoughts
+        content: 'Congratulations / wrap-up video. '

@@ -1,0 +1,18 @@
+title: Working with Data in the Tidyverse
+description: In this course, you'll learn to work with data using tools from the tidyverse
+  in R. By data, we mean your own data, other people's data, messy data, big data,
+  small data - any data with rows and columns that comes your way! By work, we mean
+  doing most of the things that sound hard to do with R, and that need to happen before
+  you can analyze or visualize your data. But work doesn't mean that it is not fun
+  - you will see why so many people love working in the tidyverse as you learn how to explore,
+  tame, tidy, and transform your data. Throughout this course, you'll work with data from a
+  popular television baking competition called "The Great British Bake Off."
+programming_language: r
+from: tidyverse-base-prod:v1.0.0
+prerequisites:
+- 4914 # Introduction to the Tidyverse 
+datasets:
+  bakeoff.csv: Bakeoff
+  Bakers.zip: Bakers
+  Desserts.zip: Desserts
+  Ratings.zip: Ratings

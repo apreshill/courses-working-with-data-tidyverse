@@ -1,0 +1,2884 @@
+{
+  "slides/chapter_2_recoding_values_in_variables.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0012010672961178775,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.0971533420153389,
+      "state": {
+        "indexh": 1,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.09966909568873733,
+      "state": {
+        "indexh": 1,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.10134419755911413,
+      "state": {
+        "indexh": 1,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.14250596819894024,
+      "state": {
+        "indexh": 1,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.17602169231106704,
+      "state": {
+        "indexh": 2
+      }
+    },
+    {
+      "timing": 0.22543267936695247,
+      "state": {
+        "indexh": 3,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.22710787505072672,
+      "state": {
+        "indexh": 3,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.22878049086607138,
+      "state": {
+        "indexh": 3,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.3267641953650198,
+      "state": {
+        "indexh": 4,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.32843608077605585,
+      "state": {
+        "indexh": 4,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.33095208908581875,
+      "state": {
+        "indexh": 4,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.41136346874072105,
+      "state": {
+        "indexh": 5,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.4121981868463546,
+      "state": {
+        "indexh": 5,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.41470718595513734,
+      "state": {
+        "indexh": 5,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.4775285033329204,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.4800456642072804,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.48255510222874404,
+      "state": {
+        "indexh": 6,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.6989091944376578,
+      "state": {
+        "indexh": 7,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7014300508897812,
+      "state": {
+        "indexh": 7,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.7039359943621902,
+      "state": {
+        "indexh": 7,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.8224921387290636,
+      "state": {
+        "indexh": 8,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8250049947000729,
+      "state": {
+        "indexh": 8,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8275187586460747,
+      "state": {
+        "indexh": 8,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.8770197191730513,
+      "state": {
+        "indexh": 9,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8987973184382548,
+      "state": {
+        "indexh": 9,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.9021484866117413,
+      "state": {
+        "indexh": 9,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.9817225471667043,
+      "state": {
+        "indexh": 10
+      }
+    }
+  ],
+  "slides/chapter_3_spread_rows_into_columns.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0032106008512967394,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.05965138990992982,
+      "state": {
+        "indexh": 1
+      }
+    },
+    {
+      "timing": 0.1545399798265383,
+      "state": {
+        "indexh": 2
+      }
+    },
+    {
+      "timing": 0.2360392013679826,
+      "state": {
+        "indexh": 3
+      }
+    },
+    {
+      "timing": 0.44311665251840265,
+      "state": {
+        "indexh": 4
+      }
+    },
+    {
+      "timing": 0.5101021258334892,
+      "state": {
+        "indexh": 5
+      }
+    },
+    {
+      "timing": 0.5547592256362608,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.5681600436716119,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.5715076849569913,
+      "state": {
+        "indexh": 6,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.764799888724092,
+      "state": {
+        "indexh": 7,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7670450772300432,
+      "state": {
+        "indexh": 7,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8340328782039592,
+      "state": {
+        "indexh": 8
+      }
+    },
+    {
+      "timing": 0.971379724426868,
+      "state": {
+        "indexh": 9
+      }
+    }
+  ],
+  "slides/chapter_2_rename_variables.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.001636058864488235,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.07710401698851588,
+      "state": {
+        "indexh": 1,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.08235815027353041,
+      "state": {
+        "indexh": 1,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.08498113633099093,
+      "state": {
+        "indexh": 1,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.12351058076613199,
+      "state": {
+        "indexh": 2,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.12525894508288055,
+      "state": {
+        "indexh": 2,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.12788285583944178,
+      "state": {
+        "indexh": 2,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.21611672283402267,
+      "state": {
+        "indexh": 2,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.2187438210003629,
+      "state": {
+        "indexh": 2,
+        "indexf": 3
+      }
+    },
+    {
+      "timing": 0.3457141914730366,
+      "state": {
+        "indexh": 3,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.34746515125203387,
+      "state": {
+        "indexh": 3,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.35009057865522614,
+      "state": {
+        "indexh": 3,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.460327916444834,
+      "state": {
+        "indexh": 4,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.5181261671852404,
+      "state": {
+        "indexh": 4,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.5207501479947638,
+      "state": {
+        "indexh": 4,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.6004341105007792,
+      "state": {
+        "indexh": 5,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.6048114854297355,
+      "state": {
+        "indexh": 5,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.6074385065378174,
+      "state": {
+        "indexh": 5,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.6827425161658685,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7090144435442604,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.7116387185762248,
+      "state": {
+        "indexh": 6,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.7878237773042677,
+      "state": {
+        "indexh": 7
+      }
+    },
+    {
+      "timing": 0.828237325868695,
+      "state": {
+        "indexh": 8,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8299864405844836,
+      "state": {
+        "indexh": 8,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.83262398890472,
+      "state": {
+        "indexh": 8,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.8799160167940347,
+      "state": {
+        "indexh": 8,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.8834173886121705,
+      "state": {
+        "indexh": 8,
+        "indexf": 3
+      }
+    },
+    {
+      "timing": 0.9815155153742365,
+      "state": {
+        "indexh": 9
+      }
+    }
+  ],
+  "slides/chapter_3_tidy_data_using_gather.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0018610001524512572,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.042191588167089546,
+      "state": {
+        "indexh": 1
+      }
+    },
+    {
+      "timing": 0.07131267149734871,
+      "state": {
+        "indexh": 2
+      }
+    },
+    {
+      "timing": 0.14463137355582933,
+      "state": {
+        "indexh": 3
+      }
+    },
+    {
+      "timing": 0.1797792940557517,
+      "state": {
+        "indexh": 4
+      }
+    },
+    {
+      "timing": 0.26213371843682404,
+      "state": {
+        "indexh": 5
+      }
+    },
+    {
+      "timing": 0.44390746944510096,
+      "state": {
+        "indexh": 6
+      }
+    },
+    {
+      "timing": 0.579492503167909,
+      "state": {
+        "indexh": 7
+      }
+    },
+    {
+      "timing": 0.6839350290152297,
+      "state": {
+        "indexh": 8
+      }
+    },
+    {
+      "timing": 0.7180864019575494,
+      "state": {
+        "indexh": 9
+      }
+    },
+    {
+      "timing": 0.7321421498970644,
+      "state": {
+        "indexh": 10
+      }
+    },
+    {
+      "timing": 0.7985378973047766,
+      "state": {
+        "indexh": 11
+      }
+    },
+    {
+      "timing": 0.8286747473104007,
+      "state": {
+        "indexh": 12
+      }
+    },
+    {
+      "timing": 0.844741530285427,
+      "state": {
+        "indexh": 13
+      }
+    },
+    {
+      "timing": 0.9773258884926321,
+      "state": {
+        "indexh": 14
+      }
+    }
+  ],
+  "slides/chapter_2_select_variables.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0012798114204060035,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.06124508115486105,
+      "state": {
+        "indexh": 1,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.06395421251429916,
+      "state": {
+        "indexh": 1,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.0657548982954974,
+      "state": {
+        "indexh": 1,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.13785961782713863,
+      "state": {
+        "indexh": 2,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.17185843387936503,
+      "state": {
+        "indexh": 2,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.17456085235587226,
+      "state": {
+        "indexh": 2,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.1763633623684148,
+      "state": {
+        "indexh": 2,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.21421938220566883,
+      "state": {
+        "indexh": 3,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.21692516793924238,
+      "state": {
+        "indexh": 3,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.218730284511591,
+      "state": {
+        "indexh": 3,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.32868670845574505,
+      "state": {
+        "indexh": 4,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.33139047888235923,
+      "state": {
+        "indexh": 4,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.3341025448748294,
+      "state": {
+        "indexh": 4,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.3358954109766093,
+      "state": {
+        "indexh": 4,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.39268211759370203,
+      "state": {
+        "indexh": 5,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.40799887589855127,
+      "state": {
+        "indexh": 5,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.4107076467379609,
+      "state": {
+        "indexh": 5,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.4716233964519784,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.473430384123275,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.4761285015958421,
+      "state": {
+        "indexh": 6,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.5617681272174238,
+      "state": {
+        "indexh": 7,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.569863362909195,
+      "state": {
+        "indexh": 7,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.5716686561363575,
+      "state": {
+        "indexh": 7,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.6230409359676775,
+      "state": {
+        "indexh": 8,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.6392634647921551,
+      "state": {
+        "indexh": 8,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.6419705159510286,
+      "state": {
+        "indexh": 8,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.7576742708752817,
+      "state": {
+        "indexh": 9,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8000183926441911,
+      "state": {
+        "indexh": 9,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8027206959668696,
+      "state": {
+        "indexh": 9,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.8486901787927029,
+      "state": {
+        "indexh": 10,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.851392179284594,
+      "state": {
+        "indexh": 10,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.854094641232923,
+      "state": {
+        "indexh": 10,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.8712171986804552,
+      "state": {
+        "indexh": 11,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8757244059432431,
+      "state": {
+        "indexh": 11,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8784318177328978,
+      "state": {
+        "indexh": 11,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.933405970422178,
+      "state": {
+        "indexh": 11,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.9361117130373727,
+      "state": {
+        "indexh": 11,
+        "indexf": 3
+      }
+    },
+    {
+      "timing": 0.9793752657813333,
+      "state": {
+        "indexh": 12
+      }
+    }
+  ],
+  "slides/chapter_3_separating_and_uniting_columns.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0016987343349034417,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.031092715327013618,
+      "state": {
+        "indexh": 1
+      }
+    },
+    {
+      "timing": 0.27848767067901986,
+      "state": {
+        "indexh": 2
+      }
+    },
+    {
+      "timing": 0.3454229728239083,
+      "state": {
+        "indexh": 3
+      }
+    },
+    {
+      "timing": 0.4462980725932771,
+      "state": {
+        "indexh": 4
+      }
+    },
+    {
+      "timing": 0.5508513127035757,
+      "state": {
+        "indexh": 5
+      }
+    },
+    {
+      "timing": 0.631546072268604,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.6361228668854847,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.6645552148828037,
+      "state": {
+        "indexh": 7,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.6663880272297052,
+      "state": {
+        "indexh": 7,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.7241665011852598,
+      "state": {
+        "indexh": 8,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7269230467880082,
+      "state": {
+        "indexh": 8,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.7765464994693685,
+      "state": {
+        "indexh": 9,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7792961348907208,
+      "state": {
+        "indexh": 9,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8370726266317624,
+      "state": {
+        "indexh": 10
+      }
+    },
+    {
+      "timing": 0.9801496553773982,
+      "state": {
+        "indexh": 11
+      }
+    }
+  ],
+  "slides/chapter_1_cast_column_types_with_readr.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0006026141098289555,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.08198885206004144,
+      "state": {
+        "indexh": 1,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.10605165215080131,
+      "state": {
+        "indexh": 1,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.11097884520403899,
+      "state": {
+        "indexh": 1,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.162568819324333,
+      "state": {
+        "indexh": 2
+      }
+    },
+    {
+      "timing": 0.19362979573376024,
+      "state": {
+        "indexh": 3,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.19535740936561408,
+      "state": {
+        "indexh": 3,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.23591105367259962,
+      "state": {
+        "indexh": 4
+      }
+    },
+    {
+      "timing": 0.27474880934969403,
+      "state": {
+        "indexh": 5,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.27647350985182856,
+      "state": {
+        "indexh": 5,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.27819167997312305,
+      "state": {
+        "indexh": 5,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.36448922001524736,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.3699259976768545,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.425500196971059,
+      "state": {
+        "indexh": 7,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.4272395079922716,
+      "state": {
+        "indexh": 7,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.5204197622495432,
+      "state": {
+        "indexh": 8,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.5221446629430565,
+      "state": {
+        "indexh": 8,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.6144778626060751,
+      "state": {
+        "indexh": 9,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.6805242275247149,
+      "state": {
+        "indexh": 9,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.7297076305540522,
+      "state": {
+        "indexh": 10,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7374956264010941,
+      "state": {
+        "indexh": 10,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.758178193780748,
+      "state": {
+        "indexh": 11,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7607658974787173,
+      "state": {
+        "indexh": 11,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.7832007863581991,
+      "state": {
+        "indexh": 12,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7849342907048942,
+      "state": {
+        "indexh": 12,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.7886360927389519,
+      "state": {
+        "indexh": 12,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.8526279222565109,
+      "state": {
+        "indexh": 13,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8543535987779481,
+      "state": {
+        "indexh": 13,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8569418995719357,
+      "state": {
+        "indexh": 13,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.8940458292592892,
+      "state": {
+        "indexh": 14
+      }
+    },
+    {
+      "timing": 0.9760201476073129,
+      "state": {
+        "indexh": 15
+      }
+    }
+  ],
+  "slides/chapter_3_tidy_multiple_sets_of_columns.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0016634415202265015,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.06055210802722371,
+      "state": {
+        "indexh": 1,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0851407185016335,
+      "state": {
+        "indexh": 1,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.08703273177823713,
+      "state": {
+        "indexh": 1,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.11256517747638893,
+      "state": {
+        "indexh": 1,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.1154013702253843,
+      "state": {
+        "indexh": 1,
+        "indexf": 3
+      }
+    },
+    {
+      "timing": 0.20052028757351925,
+      "state": {
+        "indexh": 2,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.20241171827548488,
+      "state": {
+        "indexh": 2,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.2298353147371399,
+      "state": {
+        "indexh": 3,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.23267539257803932,
+      "state": {
+        "indexh": 3,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.2696465513240256,
+      "state": {
+        "indexh": 4,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.35475932894074846,
+      "state": {
+        "indexh": 4,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.3982650306876299,
+      "state": {
+        "indexh": 5
+      }
+    },
+    {
+      "timing": 0.5559893286096267,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.5578805663810303,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.6656905578167671,
+      "state": {
+        "indexh": 7,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7150730228369147,
+      "state": {
+        "indexh": 7,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.7406090736885081,
+      "state": {
+        "indexh": 8
+      }
+    },
+    {
+      "timing": 0.834383298394279,
+      "state": {
+        "indexh": 9,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8457351103529348,
+      "state": {
+        "indexh": 9,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.9791050698552933,
+      "state": {
+        "indexh": 10
+      }
+    }
+  ],
+  "slides/chapter_1_look_at_your_data.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.000029477405775003055,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.0897243625128972,
+      "state": {
+        "indexh": 1,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.09256845154482825,
+      "state": {
+        "indexh": 1,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.18246006403986223,
+      "state": {
+        "indexh": 2,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.20775643395854934,
+      "state": {
+        "indexh": 2,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.2200015701255968,
+      "state": {
+        "indexh": 2,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.25860042011707735,
+      "state": {
+        "indexh": 3,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.28387777609742115,
+      "state": {
+        "indexh": 3,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.31208868105544463,
+      "state": {
+        "indexh": 3,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.37960493300150744,
+      "state": {
+        "indexh": 4,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.3941976841365086,
+      "state": {
+        "indexh": 4,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.44307503021507166,
+      "state": {
+        "indexh": 5,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.4512634718386729,
+      "state": {
+        "indexh": 5,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.45389058776455277,
+      "state": {
+        "indexh": 5,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.5360528324232137,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.5406631406741017,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.5451811648552753,
+      "state": {
+        "indexh": 6,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.6240326909825558,
+      "state": {
+        "indexh": 6,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.6735437234241113,
+      "state": {
+        "indexh": 7,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.6763723278501526,
+      "state": {
+        "indexh": 7,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.7571950884475297,
+      "state": {
+        "indexh": 8,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8249810470503038,
+      "state": {
+        "indexh": 8,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8322959789889558,
+      "state": {
+        "indexh": 8,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.9675970963912516,
+      "state": {
+        "indexh": 9
+      }
+    }
+  ],
+  "slides/chapter_2_case_when.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0012437535139406559,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.10378789907044976,
+      "state": {
+        "indexh": 1
+      }
+    },
+    {
+      "timing": 0.14119737307284044,
+      "state": {
+        "indexh": 2,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.14452302714720042,
+      "state": {
+        "indexh": 2,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.14702063386404204,
+      "state": {
+        "indexh": 2,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.1511735471702854,
+      "state": {
+        "indexh": 2,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.2609123501305532,
+      "state": {
+        "indexh": 3
+      }
+    },
+    {
+      "timing": 0.2722342637140937,
+      "state": {
+        "indexh": 4,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.27472844856900125,
+      "state": {
+        "indexh": 4,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.3711725264644526,
+      "state": {
+        "indexh": 5,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.37448810450221376,
+      "state": {
+        "indexh": 5,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.5540616857687429,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.5565535228738687,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.5590473053523972,
+      "state": {
+        "indexh": 6,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.7254170055038808,
+      "state": {
+        "indexh": 7
+      }
+    },
+    {
+      "timing": 0.7761243005414091,
+      "state": {
+        "indexh": 8
+      }
+    },
+    {
+      "timing": 0.8086586225548941,
+      "state": {
+        "indexh": 9,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8103174293052446,
+      "state": {
+        "indexh": 9,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8136396224990565,
+      "state": {
+        "indexh": 9,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.8485634076420857,
+      "state": {
+        "indexh": 10,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.872674018518636,
+      "state": {
+        "indexh": 10,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8743378872101008,
+      "state": {
+        "indexh": 10,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.9383602109158539,
+      "state": {
+        "indexh": 11
+      }
+    },
+    {
+      "timing": 0.9816005757362691,
+      "state": {
+        "indexh": 12
+      }
+    }
+  ],
+  "slides/chapter_4_dates.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0015527616174534013,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.09993764575424767,
+      "state": {
+        "indexh": 1
+      }
+    },
+    {
+      "timing": 0.11739434298505567,
+      "state": {
+        "indexh": 2,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.11977821676417204,
+      "state": {
+        "indexh": 2,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.2054701927953389,
+      "state": {
+        "indexh": 3,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.24832282396587768,
+      "state": {
+        "indexh": 3,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.25230241022675914,
+      "state": {
+        "indexh": 3,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.2991042399058897,
+      "state": {
+        "indexh": 4,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.3006900876358148,
+      "state": {
+        "indexh": 4,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.34389398078234634,
+      "state": {
+        "indexh": 4,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.34627231278002363,
+      "state": {
+        "indexh": 4,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.4668365261823593,
+      "state": {
+        "indexh": 5,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.46921637851984715,
+      "state": {
+        "indexh": 5,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.5707836285898844,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.5731654202334773,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.6572757762855076,
+      "state": {
+        "indexh": 7,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.6644260042425292,
+      "state": {
+        "indexh": 7,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.6834618076547075,
+      "state": {
+        "indexh": 7,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.7223438222518487,
+      "state": {
+        "indexh": 7,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.7786829562200793,
+      "state": {
+        "indexh": 8,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7810620912364875,
+      "state": {
+        "indexh": 8,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.783441321472508,
+      "state": {
+        "indexh": 8,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.8573341656944611,
+      "state": {
+        "indexh": 9,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8621015092818487,
+      "state": {
+        "indexh": 9,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8644766500099105,
+      "state": {
+        "indexh": 9,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.920027362389126,
+      "state": {
+        "indexh": 10,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.9224084455003927,
+      "state": {
+        "indexh": 10,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.9827210669797912,
+      "state": {
+        "indexh": 11
+      }
+    }
+  ],
+  "slides/chapter_4_factors.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.001590141518779809,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.036398205697325534,
+      "state": {
+        "indexh": 1
+      }
+    },
+    {
+      "timing": 0.0773276805178776,
+      "state": {
+        "indexh": 2
+      }
+    },
+    {
+      "timing": 0.1319031162839424,
+      "state": {
+        "indexh": 3,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.13531626936323876,
+      "state": {
+        "indexh": 3,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.19842142757325998,
+      "state": {
+        "indexh": 4,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.20097834446069732,
+      "state": {
+        "indexh": 4,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.20268070334851307,
+      "state": {
+        "indexh": 4,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.26152566482412654,
+      "state": {
+        "indexh": 5,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.3118332291961613,
+      "state": {
+        "indexh": 5,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.31353593941283975,
+      "state": {
+        "indexh": 5,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.3425315709317745,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.3442375966014098,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.34764616876165155,
+      "state": {
+        "indexh": 6,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.4005161212006944,
+      "state": {
+        "indexh": 7
+      }
+    },
+    {
+      "timing": 0.467891541887588,
+      "state": {
+        "indexh": 8,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.47044031681390613,
+      "state": {
+        "indexh": 8,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.4738544147290759,
+      "state": {
+        "indexh": 8,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.6084486180054522,
+      "state": {
+        "indexh": 9,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.6110076872085437,
+      "state": {
+        "indexh": 9,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.6135644949452664,
+      "state": {
+        "indexh": 9,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.7226815638654597,
+      "state": {
+        "indexh": 10
+      }
+    },
+    {
+      "timing": 0.8430479579164791,
+      "state": {
+        "indexh": 11,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.9129811291835742,
+      "state": {
+        "indexh": 11,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.9530623077222603,
+      "state": {
+        "indexh": 12,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.9547708575495161,
+      "state": {
+        "indexh": 12,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.9820630020452517,
+      "state": {
+        "indexh": 13
+      }
+    }
+  ],
+  "slides/chapter_4_strings.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0018749768683842044,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.11688227294791585,
+      "state": {
+        "indexh": 1,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.11779517414158018,
+      "state": {
+        "indexh": 1,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.16610283465888556,
+      "state": {
+        "indexh": 2,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.1688331018234593,
+      "state": {
+        "indexh": 2,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.33475362020063393,
+      "state": {
+        "indexh": 3,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.33659040742922075,
+      "state": {
+        "indexh": 3,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.4094905244114,
+      "state": {
+        "indexh": 4
+      }
+    },
+    {
+      "timing": 0.4662974442649372,
+      "state": {
+        "indexh": 5,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.48817386682785663,
+      "state": {
+        "indexh": 5,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.5966418024134621,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.599371128957709,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.7251541201848167,
+      "state": {
+        "indexh": 7,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7662042714465913,
+      "state": {
+        "indexh": 7,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8264360884482549,
+      "state": {
+        "indexh": 8,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8501339337529134,
+      "state": {
+        "indexh": 8,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.9458484769946941,
+      "state": {
+        "indexh": 9,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.948582382504125,
+      "state": {
+        "indexh": 9,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.9814027654379512,
+      "state": {
+        "indexh": 10
+      }
+    }
+  ],
+  "slides/chapter_3_introduction_to_tidy_data.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0015434602219518464,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.03612315229116326,
+      "state": {
+        "indexh": 1
+      }
+    },
+    {
+      "timing": 0.11514029194172411,
+      "state": {
+        "indexh": 2
+      }
+    },
+    {
+      "timing": 0.17940205816188481,
+      "state": {
+        "indexh": 3,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.23063403564000654,
+      "state": {
+        "indexh": 3,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.30271029894104773,
+      "state": {
+        "indexh": 4
+      }
+    },
+    {
+      "timing": 0.3548077936614232,
+      "state": {
+        "indexh": 5,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.35741140337783933,
+      "state": {
+        "indexh": 5,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.632696046074251,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.6344178273675962,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8165225489687657,
+      "state": {
+        "indexh": 7,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8182565927974098,
+      "state": {
+        "indexh": 7,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8686299931671813,
+      "state": {
+        "indexh": 8,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8712374162162636,
+      "state": {
+        "indexh": 8,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8738464963336616,
+      "state": {
+        "indexh": 8,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.9007637021415742,
+      "state": {
+        "indexh": 9,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.9025023280941349,
+      "state": {
+        "indexh": 9,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.9285613670550974,
+      "state": {
+        "indexh": 10,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.9311602129518295,
+      "state": {
+        "indexh": 10,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.934633587942401,
+      "state": {
+        "indexh": 10,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.9520186420116024,
+      "state": {
+        "indexh": 11
+      }
+    },
+    {
+      "timing": 0.9780589251825528,
+      "state": {
+        "indexh": 12
+      }
+    }
+  ],
+  "slides/chapter_1_know_your_data.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0010186632533074737,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.023369752334790043,
+      "state": {
+        "indexh": 1
+      }
+    },
+    {
+      "timing": 0.16663668254303113,
+      "state": {
+        "indexh": 2,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.17015203388229933,
+      "state": {
+        "indexh": 2,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.17367951628357425,
+      "state": {
+        "indexh": 2,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.25605263916086196,
+      "state": {
+        "indexh": 3,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.2586260500811816,
+      "state": {
+        "indexh": 3,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.2612670559190799,
+      "state": {
+        "indexh": 3,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.4114216806269717,
+      "state": {
+        "indexh": 4,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.41406406763719256,
+      "state": {
+        "indexh": 4,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.4167096503701088,
+      "state": {
+        "indexh": 4,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.5901870471958465,
+      "state": {
+        "indexh": 5,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.5922996706425657,
+      "state": {
+        "indexh": 5,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.5954925612229717,
+      "state": {
+        "indexh": 5,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.675694896002803,
+      "state": {
+        "indexh": 5,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.7188478658696441,
+      "state": {
+        "indexh": 5,
+        "indexf": 3
+      }
+    },
+    {
+      "timing": 0.7869159296413073,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7901064295725783,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.7911647682431138,
+      "state": {
+        "indexh": 6,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.96340009209025,
+      "state": {
+        "indexh": 7
+      }
+    }
+  ],
+  "slides/chapter_4_final_thoughts.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.006199469861486208,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.15264214373335852,
+      "state": {
+        "indexh": 1,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.18482269771592774,
+      "state": {
+        "indexh": 1,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.18966384114412335,
+      "state": {
+        "indexh": 1,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.19609007205608983,
+      "state": {
+        "indexh": 1,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.20252258490116268,
+      "state": {
+        "indexh": 1,
+        "indexf": 3
+      }
+    },
+    {
+      "timing": 0.2563992108759211,
+      "state": {
+        "indexh": 1,
+        "indexf": 4
+      }
+    },
+    {
+      "timing": 0.2805195426433453,
+      "state": {
+        "indexh": 2
+      }
+    },
+    {
+      "timing": 0.33683630700909006,
+      "state": {
+        "indexh": 3
+      }
+    },
+    {
+      "timing": 0.42197110480692235,
+      "state": {
+        "indexh": 4
+      }
+    },
+    {
+      "timing": 0.5186869423231852,
+      "state": {
+        "indexh": 5
+      }
+    },
+    {
+      "timing": 0.5904196981011727,
+      "state": {
+        "indexh": 6
+      }
+    },
+    {
+      "timing": 0.6350695547829704,
+      "state": {
+        "indexh": 7
+      }
+    },
+    {
+      "timing": 0.7470110163222902,
+      "state": {
+        "indexh": 8,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.753440478310506,
+      "state": {
+        "indexh": 8,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.7792070691726053,
+      "state": {
+        "indexh": 9,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7920680270536085,
+      "state": {
+        "indexh": 9,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8001376399863785,
+      "state": {
+        "indexh": 9,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.8049397466069,
+      "state": {
+        "indexh": 9,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.8307100448393573,
+      "state": {
+        "indexh": 9,
+        "indexf": 3
+      }
+    },
+    {
+      "timing": 0.9162713116761579,
+      "state": {
+        "indexh": 10
+      }
+    },
+    {
+      "timing": 0.9698657732066809,
+      "state": {
+        "indexh": 11
+      }
+    }
+  ],
+  "slides/chapter_1_reading_data_using_readr.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.0009874274306773177,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.05643764080631167,
+      "state": {
+        "indexh": 1
+      }
+    },
+    {
+      "timing": 0.1099107347833603,
+      "state": {
+        "indexh": 2
+      }
+    },
+    {
+      "timing": 0.17920124956779648,
+      "state": {
+        "indexh": 3
+      }
+    },
+    {
+      "timing": 0.2703889284015341,
+      "state": {
+        "indexh": 4,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.2856736254670499,
+      "state": {
+        "indexh": 4,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.29142151326601123,
+      "state": {
+        "indexh": 4,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.38125083718500014,
+      "state": {
+        "indexh": 5
+      }
+    },
+    {
+      "timing": 0.44999657792856435,
+      "state": {
+        "indexh": 6,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.4595346176199999,
+      "state": {
+        "indexh": 6,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.4920162792548466,
+      "state": {
+        "indexh": 6,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.5187779745646646,
+      "state": {
+        "indexh": 7,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.5350029493322612,
+      "state": {
+        "indexh": 7,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.540746129418634,
+      "state": {
+        "indexh": 7,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.5646368728248777,
+      "state": {
+        "indexh": 8,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.5732345660327173,
+      "state": {
+        "indexh": 8,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.7027229717047985,
+      "state": {
+        "indexh": 9
+      }
+    },
+    {
+      "timing": 0.7534502479743663,
+      "state": {
+        "indexh": 10,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7563069468195349,
+      "state": {
+        "indexh": 10,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.7593829704867545,
+      "state": {
+        "indexh": 10,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.858201232160468,
+      "state": {
+        "indexh": 11,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.8658496793208975,
+      "state": {
+        "indexh": 11,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.9286986167834791,
+      "state": {
+        "indexh": 12
+      }
+    },
+    {
+      "timing": 0.9755176323916824,
+      "state": {
+        "indexh": 13
+      }
+    }
+  ]
+}
